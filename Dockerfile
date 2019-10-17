@@ -1,6 +1,6 @@
 FROM debian:buster
 MAINTAINER abdul@quadlobe.com
-WORKDIR /quadlobe
+WORKDIR /sandbox
 
 ADD https://raw.githubusercontent.com/ayinlaaji/dotfile/master/init.vim /root/.config/nvim/init.vim
 ADD https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim /root/.local/share/nvim/site/autoload/plug.vim
